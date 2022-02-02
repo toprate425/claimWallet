@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Bio token",
+        "tokenAddress": "0xF43f6b99Fce4Bb127DCbe8ac0aa52FbFd451a5Ff",
+        "unclaimedTokens": 10000,
+        "claimedTokens": 400,
+        "claim": 100
+    },
+    {
+        "name": "Bio token",
+        "tokenAddress": "0xF43f6b99Fce4Bb127DCbe8ac0aa52FbFd451a5Ff",
+        "unclaimedTokens": 10000,
+        "claimedTokens": 400,
+        "claim": 100
+    },
+    {
+        "name": "Bio token",
+        "tokenAddress": "0xF43f6b99Fce4Bb127DCbe8ac0aa52FbFd451a5Ff",
+        "unclaimedTokens": 10000,
+        "claimedTokens": 400,
+        "claim": 100
+    }
+]
