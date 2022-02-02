@@ -1,0 +1,78 @@
+{
+  "name": "bewta",
+  "version": "1.0.0",
+  "description": "booking app",
+  "main": "server.js",
+  "proxy": "http://localhost:5000",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "admin": "npm start --prefix admin",
+    "dev": "concurrently \"npm run server\" \"npm run client\" \"npm run admin\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toprate425/bewta.git"
+  },
+  "keywords": [
+    "react",
+    "mongodb",
+    "express",
+    "jwt",
+    "node",
+    "graphql"
+  ],
+  "author": "toprate425",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toprate425/bewta/issues"
+  },
+  "homepage": "https://github.com/toprate425/bewta#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.1",
+    "concurrently": "^6.5.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "file-system": "^2.2.2",
+    "is-empty": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^6.1.4",
+    "passport": "^0.5.2",
+    "passport-jwt": "^4.0.0",
+    "path": "^0.12.7",
+    "validator": "^13.7.0",
+    "web-vitals": "^2.1.2"
+  },
+  "eslintConfig": {
+    "overrides": [
+      {
+        "files": [
+          "**/*.stories.*"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      }
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
